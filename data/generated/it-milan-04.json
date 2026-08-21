@@ -1,0 +1,29 @@
+{
+  "locationId": "it-milan",
+  "month": 4,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 450,
+  "dayApparentC": {
+    "p50": 17.1,
+    "p75": 20.4,
+    "p90": 22.7
+  },
+  "nightMinC": {
+    "p50": 8.3,
+    "p75": 10.3,
+    "p90": 11.8
+  },
+  "humidHoursPct": 29.4,
+  "wetDaysPct": 33.6,
+  "variability": 0.449,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

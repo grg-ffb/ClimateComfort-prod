@@ -1,0 +1,29 @@
+{
+  "locationId": "cz-prague",
+  "month": 2,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 424,
+  "dayApparentC": {
+    "p50": 1.8,
+    "p75": 5.2,
+    "p90": 7.4
+  },
+  "nightMinC": {
+    "p50": -1.2,
+    "p75": 1.4,
+    "p90": 3.8
+  },
+  "humidHoursPct": 55.3,
+  "wetDaysPct": 30.2,
+  "variability": 0.528,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

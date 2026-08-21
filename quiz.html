@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welche Stadt bist du? Reise-Quiz | wohlfuehlreisen</title>
+  <meta name="description" content="Zehn kurze Fragen zeigen deine Reisepersönlichkeit – und eine von 20 europäischen Städten, die zu dir passt. Welcher Urlaubstyp bist du?">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <!-- Facebook / OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Welche Stadt bist du? Reise-Quiz 🌞">
+  <meta property="og:description" content="Zehn kurze Fragen zeigen deine Reisepersönlichkeit. Mach das Quiz und finde deine Stadt unter 20 europäischen Reisezielen!">
+  <meta property="og:image" content="https://wohlfuehlreisen.com/assets/quiz-hero-og.jpg">
+  <meta property="og:image:alt" content="Bunte Illustration von Rom, Lissabon und Athen">
+  <meta property="og:url" content="https://wohlfuehlreisen.com/quiz.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="canonical" href="https://wohlfuehlreisen.com/quiz.html">
+  <link rel="stylesheet" href="assets/klaro.css?v=2">
+  <script src="assets/klaro-config.js?v=3"></script>
+  <script defer src="assets/klaro.js?v=2"></script>
+  <script type="module" src="quiz-app.js?v=12"></script>
+</head>
+<body class="quiz-body">
+  <header class="quiz-header">
+    <a class="quiz-exit" href="index.html">← <span>Stadtfinder</span></a>
+    <h1 class="quiz-title"><span id="quizTitle">Welche Stadt bist du?</span> 🌞</h1>
+    <p class="quiz-subtitle" id="quizSubtitle"></p>
+    <nav class="lang-switch" aria-label="Sprache">
+      <button type="button" data-lang="en" class="lang-btn" aria-pressed="false" title="English"><span aria-hidden="true">🇬🇧</span><span class="sr-only">English</span></button>
+      <button type="button" data-lang="de" class="lang-btn active" aria-pressed="true" title="Deutsch"><span aria-hidden="true">🇩🇪</span><span class="sr-only">Deutsch</span></button>
+      <button type="button" data-lang="es" class="lang-btn" aria-pressed="false" title="Español"><span aria-hidden="true">🇪🇸</span><span class="sr-only">Español</span></button>
+    </nav>
+  </header>
+
+  <main class="quiz-main">
+    <!-- Start screen -->
+    <section id="quizStart" class="quiz-card start-card">
+      <img src="assets/quiz-hero.webp" alt="" width="640" height="640" class="quiz-hero" fetchpriority="high">
+      <p class="quiz-start-hint" id="quizStartHint"></p>
+      <button type="button" id="quizStartBtn" class="primary quiz-start-btn"></button>
+    </section>
+
+    <!-- Question screen -->
+    <section id="quizQuestions" class="quiz-card hidden">
+      <div class="quiz-progress" aria-hidden="true">
+        <div id="quizProgressBar" class="quiz-progress-bar"></div>
+      </div>
+      <p class="quiz-counter" id="quizCounter"></p>
+      <h2 class="quiz-question" id="quizQuestionText"></h2>
+      <div id="quizAnswers" class="quiz-answers" role="listbox"></div>
+    </section>
+
+    <!-- Result screen -->
+    <section id="quizResult" class="quiz-card result-card hidden">
+      <p class="quiz-result-eyebrow" id="quizResultEyebrow"></p>
+      <div class="quiz-result-emoji" id="quizResultEmoji" aria-hidden="true"></div>
+      <h2 class="quiz-result-headline" id="quizResultHeadline"></h2>
+      <p class="quiz-result-body" id="quizResultBody"></p>
+      <p class="quiz-result-month" id="quizResultMonth"></p>
+      <h3 class="quiz-traits-title" id="quizTraitsTitle"></h3>
+      <ul class="quiz-traits" id="quizTraits"></ul>
+      <section id="quizDestinations" class="quiz-destinations" aria-live="polite"></section>
+      <div class="quiz-result-actions">
+        <div class="quiz-share-label" id="quizShareLabel"></div>
+        <div class="quiz-share-row" id="quizShareRow"></div>
+        <button type="button" id="quizCtaBtn" class="booking-btn"></button>
+        <button type="button" id="quizRetryBtn" class="retry-btn"></button>
+        <a id="quizExploreLink" class="quiz-explore-link" href="index.html"></a>
+      </div>
+      <p class="quiz-share-note hidden" id="quizShareNote"></p>
+      <div class="quiz-manual-copy hidden" id="quizManualCopy">
+        <input type="text" id="quizManualCopyInput" readonly aria-label="Quiz-Link" onclick="this.select()">
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="quiz-faq-title">
+      <h2 id="quiz-faq-title">Häufige Fragen zum Reise-Quiz</h2>
+      <details id="faq1"><summary id="faq1q">Welcher Urlaubstyp bin ich?</summary><p id="faq1a">Beantworte zehn kurze Fragen zu deinen Vorlieben – von deinem perfekten Morgen bis zu deinem Reisefoto. Das Quiz erkennt daraus deine Stadtpersönlichkeit.</p></details>
+      <details id="faq2"><summary id="faq2q">Welche Stadt sollte ich besuchen?</summary><p id="faq2a">Das Quiz verrät dir deine Stadtpersönlichkeit mit passender Reisezeit. Für eine detailliertere Empfehlung nach Klima-Komfort nutze den Stadtfinder auf der Startseite.</p></details>
+      <details id="faq3"><summary id="faq3q">Wie funktioniert das Quiz?</summary><p id="faq3a">Zehn einfache Fragen, eine Antwort pro Frage. Am Ende bekommst du eine von 20 europäischen Städten – samt Eigenschaften, bestem Reisemonat und Link zu Unterkünften.</p></details>
+      <details id="faq4"><summary id="faq4q">Was bedeutet mein Ergebnis?</summary><p id="faq4a">Deine Stadtpersönlichkeit beschreibt, wie du reist und was dir guttut. Dazu siehst du den besten Reisemonat für „deine“ Stadt – basierend auf historischen Klimadaten.</p></details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="quizFooter"></p>
+    <nav aria-label="Rechtliches"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="index.html">wohlfuehlreisen</a></nav>
+  </footer>
+</body>
+</html>

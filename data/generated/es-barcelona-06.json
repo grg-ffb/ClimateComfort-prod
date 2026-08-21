@@ -1,0 +1,29 @@
+{
+  "locationId": "es-barcelona",
+  "month": 6,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 450,
+  "dayApparentC": {
+    "p50": 27.3,
+    "p75": 29.4,
+    "p90": 31.7
+  },
+  "nightMinC": {
+    "p50": 18.3,
+    "p75": 20.1,
+    "p90": 21.5
+  },
+  "humidHoursPct": 27.9,
+  "wetDaysPct": 20.0,
+  "variability": 0.351,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

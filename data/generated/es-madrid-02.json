@@ -1,0 +1,29 @@
+{
+  "locationId": "es-madrid",
+  "month": 2,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 424,
+  "dayApparentC": {
+    "p50": 9.3,
+    "p75": 12.5,
+    "p90": 14.6
+  },
+  "nightMinC": {
+    "p50": 2.2,
+    "p75": 4.5,
+    "p90": 6.3
+  },
+  "humidHoursPct": 41.5,
+  "wetDaysPct": 20.0,
+  "variability": 0.445,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

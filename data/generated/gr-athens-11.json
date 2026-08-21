@@ -1,0 +1,29 @@
+{
+  "locationId": "gr-athens",
+  "month": 11,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 450,
+  "dayApparentC": {
+    "p50": 17.2,
+    "p75": 19.6,
+    "p90": 21.5
+  },
+  "nightMinC": {
+    "p50": 11.3,
+    "p75": 13.4,
+    "p90": 15.3
+  },
+  "humidHoursPct": 45.9,
+  "wetDaysPct": 24.9,
+  "variability": 0.399,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

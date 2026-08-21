@@ -1,0 +1,29 @@
+{
+  "locationId": "pt-lisbon",
+  "month": 1,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 12.2,
+    "p75": 13.8,
+    "p90": 15.8
+  },
+  "nightMinC": {
+    "p50": 9.2,
+    "p75": 11.2,
+    "p90": 12.9
+  },
+  "humidHoursPct": 71.6,
+  "wetDaysPct": 28.4,
+  "variability": 0.286,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}
