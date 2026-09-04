@@ -1,0 +1,29 @@
+{
+  "locationId": "at-vienna",
+  "month": 7,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 27.3,
+    "p75": 30.7,
+    "p90": 33.2
+  },
+  "nightMinC": {
+    "p50": 17.4,
+    "p75": 19.0,
+    "p90": 20.7
+  },
+  "humidHoursPct": 14.0,
+  "wetDaysPct": 35.1,
+  "variability": 0.502,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

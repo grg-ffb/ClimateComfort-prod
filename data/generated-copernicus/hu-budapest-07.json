@@ -1,0 +1,29 @@
+{
+  "locationId": "hu-budapest",
+  "month": 7,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 27.6,
+    "p75": 30.4,
+    "p90": 32.7
+  },
+  "nightMinC": {
+    "p50": 18.0,
+    "p75": 19.8,
+    "p90": 21.2
+  },
+  "humidHoursPct": 13.2,
+  "wetDaysPct": 28.6,
+  "variability": 0.44,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

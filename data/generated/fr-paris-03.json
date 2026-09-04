@@ -1,0 +1,29 @@
+{
+  "locationId": "fr-paris",
+  "month": 3,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 8.9,
+    "p75": 11.9,
+    "p90": 15.6
+  },
+  "nightMinC": {
+    "p50": 4.0,
+    "p75": 5.9,
+    "p90": 7.8
+  },
+  "humidHoursPct": 49.8,
+  "wetDaysPct": 36.1,
+  "variability": 0.447,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

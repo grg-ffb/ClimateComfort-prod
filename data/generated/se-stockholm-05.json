@@ -1,0 +1,29 @@
+{
+  "locationId": "se-stockholm",
+  "month": 5,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 12.4,
+    "p75": 15.9,
+    "p90": 19.8
+  },
+  "nightMinC": {
+    "p50": 6.7,
+    "p75": 9.1,
+    "p90": 10.4
+  },
+  "humidHoursPct": 24.6,
+  "wetDaysPct": 31.2,
+  "variability": 0.536,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

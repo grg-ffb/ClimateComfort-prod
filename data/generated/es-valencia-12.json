@@ -1,0 +1,29 @@
+{
+  "locationId": "es-valencia",
+  "month": 12,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 14.6,
+    "p75": 16.4,
+    "p90": 18.3
+  },
+  "nightMinC": {
+    "p50": 8.3,
+    "p75": 10.3,
+    "p90": 12.1
+  },
+  "humidHoursPct": 34.1,
+  "wetDaysPct": 11.2,
+  "variability": 0.297,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

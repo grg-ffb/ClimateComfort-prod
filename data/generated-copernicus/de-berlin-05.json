@@ -1,0 +1,29 @@
+{
+  "locationId": "de-berlin",
+  "month": 5,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 15.1,
+    "p75": 18.5,
+    "p90": 22.0
+  },
+  "nightMinC": {
+    "p50": 9.0,
+    "p75": 11.2,
+    "p90": 13.7
+  },
+  "humidHoursPct": 18.3,
+  "wetDaysPct": 31.8,
+  "variability": 0.458,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

@@ -1,0 +1,29 @@
+{
+  "locationId": "pt-porto",
+  "month": 10,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 20.2,
+    "p75": 23.3,
+    "p90": 26.5
+  },
+  "nightMinC": {
+    "p50": 14.2,
+    "p75": 15.8,
+    "p90": 17.0
+  },
+  "humidHoursPct": 61.0,
+  "wetDaysPct": 41.1,
+  "variability": 0.428,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

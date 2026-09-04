@@ -1,0 +1,467 @@
+{
+  "datasetVersion": "copernicus-era5land-2011-2025-v1",
+  "methodVersion": "comfort-v2",
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "window": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "derivation": {
+    "humidityThresholdPct": 70.0,
+    "wetDayMm": 1.0,
+    "daytimeHoursLocal": [
+      8,
+      20
+    ],
+    "variabilityNormalizationStddevDivisor": 10.0,
+    "note": "All parameters are calibration hypotheses, not health thresholds."
+  },
+  "files": [
+    {
+      "path": "at-vienna-04.json",
+      "sha256": "842623b037bb56e0f115d19ad14bff8489638f2c07acad7f66034dc3ed3f3744",
+      "locationId": "at-vienna",
+      "month": 4
+    },
+    {
+      "path": "at-vienna-05.json",
+      "sha256": "2804504ec0f3d5ef375116295a56f43f5907a6143c547aa0527b90be5100efea",
+      "locationId": "at-vienna",
+      "month": 5
+    },
+    {
+      "path": "at-vienna-06.json",
+      "sha256": "abb489cedab38b3ae350c80ef754105c686bd10a0650b3e2f9783e5f95593e2b",
+      "locationId": "at-vienna",
+      "month": 6
+    },
+    {
+      "path": "at-vienna-07.json",
+      "sha256": "fe87f585e45cf29c3f101d68f0765d067e770477a3f224f9cf1ce606be042be5",
+      "locationId": "at-vienna",
+      "month": 7
+    },
+    {
+      "path": "at-vienna-08.json",
+      "sha256": "a19d85415bdfb4ca3a727dc0e1fb3e9008e180c24d16a7e9e7ede807b01161bf",
+      "locationId": "at-vienna",
+      "month": 8
+    },
+    {
+      "path": "at-vienna-09.json",
+      "sha256": "64ba4d93450869299b16d2378ed1b3300bb506576b7a4c70828a27923869383a",
+      "locationId": "at-vienna",
+      "month": 9
+    },
+    {
+      "path": "cz-prague-04.json",
+      "sha256": "737820adda4fa2e7bfd56f3d6bf4eb4e8161bd3482c6ab24a519d78258ad3107",
+      "locationId": "cz-prague",
+      "month": 4
+    },
+    {
+      "path": "cz-prague-05.json",
+      "sha256": "752bd1fb763b9085e782235abf718c3f088c935375d9f6d24005dc688b0ca6f8",
+      "locationId": "cz-prague",
+      "month": 5
+    },
+    {
+      "path": "cz-prague-06.json",
+      "sha256": "bcc6243c0279496ef5b2c9db077bd37881662e18b4e225cbcc67569e40493f5d",
+      "locationId": "cz-prague",
+      "month": 6
+    },
+    {
+      "path": "cz-prague-07.json",
+      "sha256": "6e1084559334c09f236fd7d041aad43a72f64c88799f6af3ac6b6894c65f0725",
+      "locationId": "cz-prague",
+      "month": 7
+    },
+    {
+      "path": "cz-prague-08.json",
+      "sha256": "3fa4ce11e13e862c9b32321ca33395d8c6d6fdf1fa79ed99da63935d30f32269",
+      "locationId": "cz-prague",
+      "month": 8
+    },
+    {
+      "path": "cz-prague-09.json",
+      "sha256": "aa02a97696c24a2b80a187bcd7c91e3bc70994d3d09927e0408496dd7797aaf3",
+      "locationId": "cz-prague",
+      "month": 9
+    },
+    {
+      "path": "de-berlin-04.json",
+      "sha256": "2d5bbe4842f063e499c060ff5be7671a86ea7662b7f24c9cc42fe0ed4972c228",
+      "locationId": "de-berlin",
+      "month": 4
+    },
+    {
+      "path": "de-berlin-05.json",
+      "sha256": "a506d2d4da47b30fc697bd72ae57b7dc7b914187862e79f17694b23a0fee2aae",
+      "locationId": "de-berlin",
+      "month": 5
+    },
+    {
+      "path": "de-berlin-06.json",
+      "sha256": "7a80791872ba53311e8af490cbf9b54ef49e256dfbeab44b20f415c5c168ca5e",
+      "locationId": "de-berlin",
+      "month": 6
+    },
+    {
+      "path": "de-berlin-07.json",
+      "sha256": "173d6d571b6b4d7b022ee8bd3e4e7864fb00b97a8e5a52b3613e545c1aa8a842",
+      "locationId": "de-berlin",
+      "month": 7
+    },
+    {
+      "path": "de-berlin-08.json",
+      "sha256": "0a7fd0b973c641d29f988ca39ada6de629c3d3ffab3490dc50b046463c4466d5",
+      "locationId": "de-berlin",
+      "month": 8
+    },
+    {
+      "path": "de-berlin-09.json",
+      "sha256": "68493b12e16bdb681350fa7de4c3efc1e85a5453ec73d7a807cdc1713493996f",
+      "locationId": "de-berlin",
+      "month": 9
+    },
+    {
+      "path": "es-madrid-04.json",
+      "sha256": "b604d4f37bdde771a903ae4f9a13ba32c659678fea44bfaad7ff641a9c8c0689",
+      "locationId": "es-madrid",
+      "month": 4
+    },
+    {
+      "path": "es-madrid-05.json",
+      "sha256": "7528761ad7072fbcf03396c6aaafd5d0fd335f047cf1ad1cf9688460878a2997",
+      "locationId": "es-madrid",
+      "month": 5
+    },
+    {
+      "path": "es-madrid-06.json",
+      "sha256": "7162c70e6982f37423bf02134ea0cd5d95342e308191f22f4e3003fb4ea8d62c",
+      "locationId": "es-madrid",
+      "month": 6
+    },
+    {
+      "path": "es-madrid-07.json",
+      "sha256": "8dc45a7f3f6163afbf1afd40e6d5d2eecb01ce9e3408ccb7af99aeaa2e323a3a",
+      "locationId": "es-madrid",
+      "month": 7
+    },
+    {
+      "path": "es-madrid-08.json",
+      "sha256": "cc42e82637dae093e1f1c82a18e645fae41041a2451da8d03018266b5d1bfc7c",
+      "locationId": "es-madrid",
+      "month": 8
+    },
+    {
+      "path": "es-madrid-09.json",
+      "sha256": "f93936aafc2abc4a73a99093661dd8e1e9ade257a3eae08e4b25fa5cdc44615f",
+      "locationId": "es-madrid",
+      "month": 9
+    },
+    {
+      "path": "fr-paris-04.json",
+      "sha256": "fc6bec99b931df2b101526b3adc1261df1d239e4fae758ab6274a3b3b0b6d372",
+      "locationId": "fr-paris",
+      "month": 4
+    },
+    {
+      "path": "fr-paris-05.json",
+      "sha256": "eb44abbd4b628bfc358a0b5a6360abf6b406765dbc4ab3c18d36c09193ef7399",
+      "locationId": "fr-paris",
+      "month": 5
+    },
+    {
+      "path": "fr-paris-06.json",
+      "sha256": "ab88bcbe1f4a85236cc48e998fd214cd7e9a70646d7d9fb6a71e6d9ea2426f8f",
+      "locationId": "fr-paris",
+      "month": 6
+    },
+    {
+      "path": "fr-paris-07.json",
+      "sha256": "828c9e2adbe6fb5f136ae60abd1eb0ea7b1c8ab795f4f80836df4e300b0d5af0",
+      "locationId": "fr-paris",
+      "month": 7
+    },
+    {
+      "path": "fr-paris-08.json",
+      "sha256": "3079ea405d123c44eb64598a2a7e2a6d48d5338c6697f45146f6f3f3d13dd296",
+      "locationId": "fr-paris",
+      "month": 8
+    },
+    {
+      "path": "fr-paris-09.json",
+      "sha256": "f0d3360a272b168448b7807bd56ac7d9c86901a256c92d64ffcbc008bda47584",
+      "locationId": "fr-paris",
+      "month": 9
+    },
+    {
+      "path": "gb-london-04.json",
+      "sha256": "f9e88c997511ae39786b4e2bd6e113fadca68b384ca845e859aad9cca9063a9d",
+      "locationId": "gb-london",
+      "month": 4
+    },
+    {
+      "path": "gb-london-05.json",
+      "sha256": "55b57514a7f2090992887c4defcc40fb37a44a661a9c344431c9d96ba0fbb52f",
+      "locationId": "gb-london",
+      "month": 5
+    },
+    {
+      "path": "gb-london-06.json",
+      "sha256": "61ebe22874b4a225dff1c08c1dd9676d080813614f57f1a57c2cf61f87810c0c",
+      "locationId": "gb-london",
+      "month": 6
+    },
+    {
+      "path": "gb-london-07.json",
+      "sha256": "a71c0497d3f086dc8a40b9731ad64385e93c7678299df42f2af89a1e3e9bd1ab",
+      "locationId": "gb-london",
+      "month": 7
+    },
+    {
+      "path": "gb-london-08.json",
+      "sha256": "928e59ca4aac45febfba801faba486619dab84cbcfaf786d7fdedfd90104601e",
+      "locationId": "gb-london",
+      "month": 8
+    },
+    {
+      "path": "gb-london-09.json",
+      "sha256": "6ba136005e17b6c67ef9be2bec459ffb0c6d5d592a977655183e7b4c9eb2d113",
+      "locationId": "gb-london",
+      "month": 9
+    },
+    {
+      "path": "gr-athens-04.json",
+      "sha256": "9627037f83935b38e3a1398611e44ff12f378948c5dd672488d23d3cf4948c13",
+      "locationId": "gr-athens",
+      "month": 4
+    },
+    {
+      "path": "gr-athens-05.json",
+      "sha256": "93e3b2c8d46ab42e950e3b86ba04f967aea95fb345bb5bc8bac8b8cd1e8c2a92",
+      "locationId": "gr-athens",
+      "month": 5
+    },
+    {
+      "path": "gr-athens-06.json",
+      "sha256": "4f8ad0499ea0b71f072871617256f5dd84941daa733ef944a8201fc0f427905f",
+      "locationId": "gr-athens",
+      "month": 6
+    },
+    {
+      "path": "gr-athens-07.json",
+      "sha256": "a32c0fbaf7999e17c37a6b769ccad4612fb582510d11346dfe2a613af6a73005",
+      "locationId": "gr-athens",
+      "month": 7
+    },
+    {
+      "path": "gr-athens-08.json",
+      "sha256": "4cbd208eaa83f1fcbd0dc328545dc083f7ec4c3196a0e3cd7aa6dcce72ec7bea",
+      "locationId": "gr-athens",
+      "month": 8
+    },
+    {
+      "path": "gr-athens-09.json",
+      "sha256": "7014eae5ea42bb105a66a214688bc0f9a79036aab82cb3437e28f1acec3c7e3f",
+      "locationId": "gr-athens",
+      "month": 9
+    },
+    {
+      "path": "hu-budapest-04.json",
+      "sha256": "26cde11a6d93cb513c68472fc2b7014d5a79bd62009304115f22210b6dd57376",
+      "locationId": "hu-budapest",
+      "month": 4
+    },
+    {
+      "path": "hu-budapest-05.json",
+      "sha256": "dbb8226c3edbfc94df3fb629527f6b6b1ee0b65da7b668281e535ccdfcc6b1cc",
+      "locationId": "hu-budapest",
+      "month": 5
+    },
+    {
+      "path": "hu-budapest-06.json",
+      "sha256": "1a1ca178ac9f9eefbef47f5f06f5f4dfe414f748ebe59e328be2cdeb45281011",
+      "locationId": "hu-budapest",
+      "month": 6
+    },
+    {
+      "path": "hu-budapest-07.json",
+      "sha256": "4ed939e842a6da08b04fb1f8d1a4bf69be93f5cbf68f28cc742fd39ce1b8d8fe",
+      "locationId": "hu-budapest",
+      "month": 7
+    },
+    {
+      "path": "hu-budapest-08.json",
+      "sha256": "f64470df35409187901cf4f9cb3fb76041f4dc8928c7ae9dc28a02647a29a7cd",
+      "locationId": "hu-budapest",
+      "month": 8
+    },
+    {
+      "path": "hu-budapest-09.json",
+      "sha256": "73963a45ff1290e1b53b2cf41d360602a953a95df6b262c28ac506e6ac74f1e0",
+      "locationId": "hu-budapest",
+      "month": 9
+    },
+    {
+      "path": "it-rome-01.json",
+      "sha256": "3bfde36882b5ab303f5cb92a63e5dffc5f1986627047a7d23d0a6c637d1580af",
+      "locationId": "it-rome",
+      "month": 1
+    },
+    {
+      "path": "it-rome-02.json",
+      "sha256": "2a4612679bf8b1792b88bff3c17de01c2740e48c5d177f92ba61e4fd9575d4b3",
+      "locationId": "it-rome",
+      "month": 2
+    },
+    {
+      "path": "it-rome-03.json",
+      "sha256": "af6cdb8638bb0f33ae2b5866b1f2e7bcc62c44cf52802f44caf1c97b2e1da34c",
+      "locationId": "it-rome",
+      "month": 3
+    },
+    {
+      "path": "it-rome-04.json",
+      "sha256": "2f88f5d4929bf51c36da099580b69b764e66df007d89f25bbab3ba8245dfc22c",
+      "locationId": "it-rome",
+      "month": 4
+    },
+    {
+      "path": "it-rome-05.json",
+      "sha256": "d0b342faea07fcc4b7b1a3b40f4961b8df5b597ce5b10d03ad03be77cc544e14",
+      "locationId": "it-rome",
+      "month": 5
+    },
+    {
+      "path": "it-rome-06.json",
+      "sha256": "e11bc69f29cd35af2693cc705668c02768be46fc763ce7bf6b14f15c358d3c5c",
+      "locationId": "it-rome",
+      "month": 6
+    },
+    {
+      "path": "it-rome-07.json",
+      "sha256": "503e837d549e12e42d54c018483fca250c00d11efc2cbd5fc7a6ff61b076def2",
+      "locationId": "it-rome",
+      "month": 7
+    },
+    {
+      "path": "it-rome-08.json",
+      "sha256": "cbfb7811df8a16a59fd07296cb73d1ac79f29e007af7f26b95a809be10523417",
+      "locationId": "it-rome",
+      "month": 8
+    },
+    {
+      "path": "it-rome-09.json",
+      "sha256": "da3661a1b9744c9f9059058c9ea3029a70c3d1fedee896d5ebaf84b16a33d100",
+      "locationId": "it-rome",
+      "month": 9
+    },
+    {
+      "path": "it-rome-10.json",
+      "sha256": "e6f6f0c47fc0c7a278b64dc3e4425631b1ea29f914bc518785f9c7b3c1693a88",
+      "locationId": "it-rome",
+      "month": 10
+    },
+    {
+      "path": "it-rome-11.json",
+      "sha256": "597835fb62f6d405e1d26082ea8b0b8f8f3d623a105adca14ead3e26ab85acb7",
+      "locationId": "it-rome",
+      "month": 11
+    },
+    {
+      "path": "it-rome-12.json",
+      "sha256": "0f43de73db73d0435ad4506b54f5dda94a5bb9f58ef8242f39ac0b580a872f7e",
+      "locationId": "it-rome",
+      "month": 12
+    },
+    {
+      "path": "nl-amsterdam-04.json",
+      "sha256": "02326e19e574328c57ae107335391be0c1f2ad9b92a3c043d55c99ffbff137da",
+      "locationId": "nl-amsterdam",
+      "month": 4
+    },
+    {
+      "path": "nl-amsterdam-05.json",
+      "sha256": "a4d433da3f537e6bab730034c7dc84159c7872680ae10f39bc28c22ea6c61ac4",
+      "locationId": "nl-amsterdam",
+      "month": 5
+    },
+    {
+      "path": "nl-amsterdam-06.json",
+      "sha256": "873ef3ac52c5a65cc42f8a92a4d3ce33c156014a363d2d250ff122bf86b31da4",
+      "locationId": "nl-amsterdam",
+      "month": 6
+    },
+    {
+      "path": "nl-amsterdam-07.json",
+      "sha256": "1fec282e57dfbed64d59b754b0e118d9a764df7aaeb7b93e168ad1a335aec98e",
+      "locationId": "nl-amsterdam",
+      "month": 7
+    },
+    {
+      "path": "nl-amsterdam-08.json",
+      "sha256": "2cdbcd5a7d5a1a4f9e9c719fdeb99b9b98beaa1087bd0ab9112402da3202315d",
+      "locationId": "nl-amsterdam",
+      "month": 8
+    },
+    {
+      "path": "nl-amsterdam-09.json",
+      "sha256": "31b982d944829808bc9f6a35f9b9736aa5286f259ddfbf79f94f2fe5115791b4",
+      "locationId": "nl-amsterdam",
+      "month": 9
+    },
+    {
+      "path": "pt-lisbon-04.json",
+      "sha256": "b8d3ee3173619ec0854ed52e5f2f38d2b8a1d27dcad44e5c2e4fc7c7f876196d",
+      "locationId": "pt-lisbon",
+      "month": 4
+    },
+    {
+      "path": "pt-lisbon-05.json",
+      "sha256": "f045666c193d00ff2651965f4d8a3c03a0ae99465ce4c8899fc117b3572a57aa",
+      "locationId": "pt-lisbon",
+      "month": 5
+    },
+    {
+      "path": "pt-lisbon-06.json",
+      "sha256": "42201298b1011f8946f3be6217c696b997e4e5494a23f5e3a9604ecf2020f06a",
+      "locationId": "pt-lisbon",
+      "month": 6
+    },
+    {
+      "path": "pt-lisbon-07.json",
+      "sha256": "0efb0da937177e8a1abbc943d9a42a29b98a7b4e1373b7bce58d3b3b2b6d7eb1",
+      "locationId": "pt-lisbon",
+      "month": 7
+    },
+    {
+      "path": "pt-lisbon-08.json",
+      "sha256": "ef52db141af88436cd43f52c2393ed033ca0ed73d041bb29f51ace4bfe5abace",
+      "locationId": "pt-lisbon",
+      "month": 8
+    },
+    {
+      "path": "pt-lisbon-09.json",
+      "sha256": "2fb93e02c18bd2f1c481f0a8efb612d21c2a3a9365b9ab544c3eebf8a354932d",
+      "locationId": "pt-lisbon",
+      "month": 9
+    }
+  ],
+  "generatedAt": "2026-09-01T10:45:09Z"
+}

@@ -1,0 +1,29 @@
+{
+  "locationId": "it-rome",
+  "month": 2,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 424,
+  "dayApparentC": {
+    "p50": 11.8,
+    "p75": 13.7,
+    "p90": 14.8
+  },
+  "nightMinC": {
+    "p50": 4.6,
+    "p75": 7.1,
+    "p90": 9.4
+  },
+  "humidHoursPct": 55.1,
+  "wetDaysPct": 31.8,
+  "variability": 0.366,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

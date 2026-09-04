@@ -1,0 +1,29 @@
+{
+  "locationId": "gb-london",
+  "month": 12,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 5.9,
+    "p75": 8.1,
+    "p90": 9.8
+  },
+  "nightMinC": {
+    "p50": 4.3,
+    "p75": 6.5,
+    "p90": 8.9
+  },
+  "humidHoursPct": 95.5,
+  "wetDaysPct": 37.8,
+  "variability": 0.331,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

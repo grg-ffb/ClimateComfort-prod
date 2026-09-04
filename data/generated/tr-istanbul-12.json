@@ -1,0 +1,29 @@
+{
+  "locationId": "tr-istanbul",
+  "month": 12,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 8.7,
+    "p75": 11.4,
+    "p90": 13.6
+  },
+  "nightMinC": {
+    "p50": 6.1,
+    "p75": 8.7,
+    "p90": 10.6
+  },
+  "humidHoursPct": 70.7,
+  "wetDaysPct": 40.9,
+  "variability": 0.422,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

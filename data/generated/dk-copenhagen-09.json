@@ -1,0 +1,29 @@
+{
+  "locationId": "dk-copenhagen",
+  "month": 9,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 450,
+  "dayApparentC": {
+    "p50": 15.1,
+    "p75": 18.0,
+    "p90": 20.7
+  },
+  "nightMinC": {
+    "p50": 12.7,
+    "p75": 14.1,
+    "p90": 15.5
+  },
+  "humidHoursPct": 60.9,
+  "wetDaysPct": 35.6,
+  "variability": 0.365,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

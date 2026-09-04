@@ -1,0 +1,29 @@
+{
+  "locationId": "nl-amsterdam",
+  "month": 1,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 2.7,
+    "p75": 4.8,
+    "p90": 6.1
+  },
+  "nightMinC": {
+    "p50": 2.5,
+    "p75": 5.0,
+    "p90": 6.5
+  },
+  "humidHoursPct": 92.1,
+  "wetDaysPct": 46.9,
+  "variability": 0.331,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

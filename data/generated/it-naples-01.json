@@ -1,0 +1,29 @@
+{
+  "locationId": "it-naples",
+  "month": 1,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 10.7,
+    "p75": 12.2,
+    "p90": 14.0
+  },
+  "nightMinC": {
+    "p50": 5.9,
+    "p75": 8.1,
+    "p90": 10.6
+  },
+  "humidHoursPct": 64.2,
+  "wetDaysPct": 38.5,
+  "variability": 0.319,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}

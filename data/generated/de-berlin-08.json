@@ -1,0 +1,29 @@
+{
+  "locationId": "de-berlin",
+  "month": 8,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 465,
+  "dayApparentC": {
+    "p50": 23.7,
+    "p75": 27.6,
+    "p90": 31.4
+  },
+  "nightMinC": {
+    "p50": 15.2,
+    "p75": 17.3,
+    "p90": 19.1
+  },
+  "humidHoursPct": 25.1,
+  "wetDaysPct": 31.0,
+  "variability": 0.508,
+  "source": {
+    "provider": "Open-Meteo Historical Weather API (archive-api.open-meteo.com)",
+    "licence": "CC BY 4.0",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "retrievalNote": "Historical reanalysis; modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "openmeteo-archive-2011-2025-v1"
+}
