@@ -1,0 +1,29 @@
+{
+  "locationId": "hr-dubrovnik",
+  "month": 7,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 30.0,
+    "p75": 32.1,
+    "p90": 33.9
+  },
+  "nightMinC": {
+    "p50": 21.0,
+    "p75": 22.5,
+    "p90": 23.7
+  },
+  "humidHoursPct": 8.8,
+  "wetDaysPct": 12.4,
+  "variability": 0.34,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

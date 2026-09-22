@@ -1,0 +1,29 @@
+{
+  "locationId": "es-madrid",
+  "month": 5,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 21.2,
+    "p75": 24.9,
+    "p90": 27.8
+  },
+  "nightMinC": {
+    "p50": 11.3,
+    "p75": 13.7,
+    "p90": 15.6
+  },
+  "humidHoursPct": 11.9,
+  "wetDaysPct": 18.4,
+  "variability": 0.502,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

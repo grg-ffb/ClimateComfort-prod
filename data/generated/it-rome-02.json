@@ -1,0 +1,29 @@
+{
+  "locationId": "it-rome",
+  "month": 2,
+  "period": {
+    "fromYear": 2011,
+    "toYear": 2025
+  },
+  "sampleDays": 424,
+  "dayApparentC": {
+    "p50": 10.8,
+    "p75": 12.5,
+    "p90": 13.5
+  },
+  "nightMinC": {
+    "p50": 4.8,
+    "p75": 7.1,
+    "p90": 9.3
+  },
+  "humidHoursPct": 56.4,
+  "wetDaysPct": 37.0,
+  "variability": 0.342,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}
