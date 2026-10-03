@@ -1,0 +1,29 @@
+{
+  "locationId": "it-milan",
+  "month": 12,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 6.2,
+    "p75": 8.1,
+    "p90": 9.5
+  },
+  "nightMinC": {
+    "p50": 0.9,
+    "p75": 3.5,
+    "p90": 5.1
+  },
+  "humidHoursPct": 84.4,
+  "wetDaysPct": 25.8,
+  "variability": 0.267,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

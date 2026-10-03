@@ -1,0 +1,29 @@
+{
+  "locationId": "dk-copenhagen",
+  "month": 10,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 9.9,
+    "p75": 11.6,
+    "p90": 13.0
+  },
+  "nightMinC": {
+    "p50": 9.2,
+    "p75": 10.6,
+    "p90": 11.7
+  },
+  "humidHoursPct": 83.3,
+  "wetDaysPct": 48.4,
+  "variability": 0.307,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

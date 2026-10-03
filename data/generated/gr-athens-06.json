@@ -1,0 +1,29 @@
+{
+  "locationId": "gr-athens",
+  "month": 6,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 210,
+  "dayApparentC": {
+    "p50": 29.4,
+    "p75": 32.0,
+    "p90": 34.4
+  },
+  "nightMinC": {
+    "p50": 20.5,
+    "p75": 22.3,
+    "p90": 23.9
+  },
+  "humidHoursPct": 5.1,
+  "wetDaysPct": 12.4,
+  "variability": 0.365,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}
