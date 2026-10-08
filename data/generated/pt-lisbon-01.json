@@ -1,0 +1,29 @@
+{
+  "locationId": "pt-lisbon",
+  "month": 1,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 12.1,
+    "p75": 13.7,
+    "p90": 15.1
+  },
+  "nightMinC": {
+    "p50": 10.2,
+    "p75": 12.3,
+    "p90": 13.6
+  },
+  "humidHoursPct": 71.7,
+  "wetDaysPct": 23.0,
+  "variability": 0.281,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

@@ -1,0 +1,29 @@
+{
+  "locationId": "at-vienna",
+  "month": 8,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 26.7,
+    "p75": 30.2,
+    "p90": 32.3
+  },
+  "nightMinC": {
+    "p50": 17.4,
+    "p75": 19.0,
+    "p90": 20.4
+  },
+  "humidHoursPct": 23.0,
+  "wetDaysPct": 36.9,
+  "variability": 0.501,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

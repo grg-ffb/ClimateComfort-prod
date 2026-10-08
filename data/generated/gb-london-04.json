@@ -1,0 +1,29 @@
+{
+  "locationId": "gb-london",
+  "month": 4,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 210,
+  "dayApparentC": {
+    "p50": 9.0,
+    "p75": 12.5,
+    "p90": 15.9
+  },
+  "nightMinC": {
+    "p50": 5.3,
+    "p75": 7.1,
+    "p90": 8.4
+  },
+  "humidHoursPct": 33.3,
+  "wetDaysPct": 31.4,
+  "variability": 0.421,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}
