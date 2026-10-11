@@ -1,0 +1,29 @@
+{
+  "locationId": "tr-istanbul",
+  "month": 11,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 210,
+  "dayApparentC": {
+    "p50": 13.1,
+    "p75": 17.0,
+    "p90": 19.8
+  },
+  "nightMinC": {
+    "p50": 11.6,
+    "p75": 13.3,
+    "p90": 14.9
+  },
+  "humidHoursPct": 58.2,
+  "wetDaysPct": 32.9,
+  "variability": 0.448,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}
