@@ -1,0 +1,29 @@
+{
+  "locationId": "cz-prague",
+  "month": 10,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 12.3,
+    "p75": 16.1,
+    "p90": 18.4
+  },
+  "nightMinC": {
+    "p50": 8.1,
+    "p75": 9.7,
+    "p90": 11.0
+  },
+  "humidHoursPct": 57.1,
+  "wetDaysPct": 38.2,
+  "variability": 0.44,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}

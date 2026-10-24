@@ -1,0 +1,29 @@
+{
+  "locationId": "fr-paris",
+  "month": 3,
+  "period": {
+    "fromYear": 2019,
+    "toYear": 2025
+  },
+  "sampleDays": 217,
+  "dayApparentC": {
+    "p50": 8.5,
+    "p75": 11.7,
+    "p90": 14.4
+  },
+  "nightMinC": {
+    "p50": 4.1,
+    "p75": 6.3,
+    "p90": 8.1
+  },
+  "humidHoursPct": 48.0,
+  "wetDaysPct": 42.4,
+  "variability": 0.413,
+  "source": {
+    "provider": "Copernicus Climate Data Store — ERA5-Land hourly reanalysis (0.1°)",
+    "licence": "Generated using Copernicus Climate Change Service information 2026. ERA5-Land data is free of charge for commercial and non-commercial use subject to the Copernicus licence.",
+    "attribution": "Contains modified Copernicus Climate Change Service information 2026",
+    "retrievalNote": "Historical reanalysis (ERA5-Land); modeled past conditions, not a forecast."
+  },
+  "datasetVersion": "copernicus-era5land-2011-2025-v1"
+}
